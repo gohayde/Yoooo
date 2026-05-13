@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HaydeSite OS — Generate production-ready websites for home service businesses.">
+    <title>HaydeSite OS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <aside class="sidebar" id="sidebar">
+        <div class="sidebar-top">
+            <a href="#" class="sidebar-brand" id="brandLink" data-page="new-build">
+                <svg class="brand-logo" width="30" height="30" viewBox="0 0 100 100" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <rect width="100" height="100" rx="20" fill="currentColor" fill-opacity="0.1" />
+                    <text x="50" y="68" font-family="Inter, sans-serif" font-size="54" font-weight="800"
+                        fill="currentColor" text-anchor="middle">H</text>
+                </svg>
+                <div class="brand-text">
+                    <span class="brand-name">HaydeSites</span>
+                </div>
+            </a>
+            <button class="sidebar-toggle" id="sidebarToggle" title="Toggle sidebar">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round">
+                    <rect x="3" y="3" width="18" height="18" rx="2" />
+                    <line x1="9" y1="3" x2="9" y2="21" />
+                </svg>
+            </button>
+        </div>
+
+        <div class="sidebar-section">
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item active" data-page="new-build">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <line x1="12" y1="8" x2="12" y2="16" />
+                        <line x1="8" y1="12" x2="16" y2="12" />
+                    </svg>
+                    <span class="nav-label">New Build</span>
+                </a>
+                <a href="#" class="nav-item" data-page="info-spy">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="11" cy="11" r="8" />
+                        <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                        <line x1="11" y1="8" x2="11" y2="14" />
+                        <line x1="8" y1="11" x2="14" y2="11" />
+                    </svg>
+                    <span class="nav-label">Info Spy</span>
+                </a>
+                <a href="#" class="nav-item" data-page="manage-builds">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                    </svg>
+                    <span class="nav-label">Manage Builds</span>
+                </a>
+                <a href="#" class="nav-item" data-page="templates">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2" />
+                        <line x1="3" y1="9" x2="21" y2="9" />
+                        <line x1="9" y1="21" x2="9" y2="9" />
+                    </svg>
+                    <span class="nav-label">Templates</span>
+                </a>
+            </nav>
+        </div>
+
+        <div class="sidebar-footer">
+            <nav class="sidebar-nav">
+                <a href="#" class="nav-item" data-page="settings">
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="3" />
+                        <path
+                            d="M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 010 2.83 2 2 0 01-2.83 0l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 01-4 0v-.09A1.65 1.65 0 009 19.4a1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 01-2.83-2.83l.06-.06A1.65 1.65 0 004.68 15a1.65 1.65 0 00-1.51-1H3a2 2 0 010-4h.09A1.65 1.65 0 004.6 9a1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 012.83-2.83l.06.06A1.65 1.65 0 009 4.68a1.65 1.65 0 001-1.51V3a2 2 0 014 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 012.83 2.83l-.06.06A1.65 1.65 0 0019.4 9a1.65 1.65 0 001.51 1H21a2 2 0 010 4h-.09a1.65 1.65 0 00-1.51 1z" />
+                    </svg>
+                    <span class="nav-label">Settings</span>
+                </a>
+            </nav>
+            <button class="theme-toggle-minimal" id="themeToggle" title="Toggle theme">
+                <svg class="icon-sun" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <circle cx="12" cy="12" r="5" />
+                    <line x1="12" y1="1" x2="12" y2="3" />
+                    <line x1="12" y1="21" x2="12" y2="23" />
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64" />
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78" />
+                    <line x1="1" y1="12" x2="3" y2="12" />
+                    <line x1="21" y1="12" x2="23" y2="12" />
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36" />
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22" />
+                </svg>
+                <svg class="icon-moon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                    stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z" />
+                </svg>
+            </button>
+        </div>
+    </aside>
+
+    <main class="main-content" id="mainContent">
+
+        <!-- PAGE: NEW BUILD -->
+        <div class="page active" id="page-new-build">
+            <div class="quiz-container" id="quizContainer">
+                <div class="quiz-header">
+                    <div class="quiz-step-indicator">
+                        <span id="quizStepNum">01</span>
+                        <span class="quiz-step-divider">/</span>
+                        <span id="quizStepTotal">14</span>
+                    </div>
+                    <button class="btn btn-ghost btn-sm" id="resetWizard">Reset</button>
+                </div>
+                <div class="quiz-progress">
+                    <div class="quiz-progress-fill" id="progressFill"></div>
+                </div>
+                <div class="quiz-body" id="quizBody">
+                    <h2 class="quiz-question" id="quizQuestion"></h2>
+                    <p class="quiz-hint" id="quizHint"></p>
+                    <div class="quiz-input-wrap">
+                        <input type="text" id="wizardInput" class="quiz-input" placeholder="Type your answer..."
+                            autocomplete="off">
+                    </div>
+                    <div class="quiz-actions">
+                        <button class="btn btn-accent" id="wizardSend">
+                            Continue
+                            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="5" y1="12" x2="19" y2="12" />
+                                <polyline points="12 5 19 12 12 19" />
+                            </svg>
+                        </button>
+                        <button class="btn btn-ghost btn-sm" id="skipBtn" style="display:none;">Skip</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OUTPUT AREA -->
+            <div class="output-area" id="outputArea" style="display:none;">
+                <div class="output-header">
+                    <h2>Production-Ready Prompt</h2>
+                    <div class="output-actions">
+                        <button class="btn btn-accent" id="copyPrompt">Copy Outline</button>
+                        <button class="btn btn-ghost" id="startOver">New Build</button>
+                    </div>
+                </div>
+                <pre class="output-block"><code id="outputCode"></code></pre>
+            </div>
+        </div>
+
+        <!-- PAGE: INFO SPY -->
+        <div class="page" id="page-info-spy">
+            <div class="page-header">
+                <div>
+                    <h1 class="page-title">Info Spy</h1>
+                    <p class="page-subtitle">Enter a business name — we'll search Google, find their site, and extract
+                        everything.</p>
+                </div>
+            </div>
+            <div class="spy-container">
+                <div class="spy-input-wrap">
+                    <input type="text" id="spyUrlInput" class="spy-input" placeholder="e.g. Acme Roofing Dallas TX"
+                        autocomplete="off">
+                    <button class="btn btn-accent" id="spyBtn">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="11" cy="11" r="8" />
+                            <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                        </svg>
+                        Spy
+                    </button>
+                </div>
+                <div class="spy-status" id="spyStatus" style="display:none;">
+                    <div class="spy-status-icon">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z" />
+                            <circle cx="12" cy="12" r="3" />
+                        </svg>
+                    </div>
+                    <p class="spy-status-text" id="spyStatusText">Scraping business info...</p>
+                </div>
+                <div class="spy-results" id="spyResults" style="display:none;">
+                    <div class="spy-results-header">
+                        <h3>Extracted Info</h3>
+                        <div class="spy-results-actions">
+                            <button class="btn btn-accent" id="spyGenerate">Generate Prompt</button>
+                            <button class="btn btn-ghost btn-sm" id="spyReset">Reset</button>
+                        </div>
+                    </div>
+                    <div class="spy-fields" id="spyFields"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PAGE: TEMPLATES ENGINE -->
+        <div class="page" id="page-templates">
+            <div class="page-header">
+                <div>
+                    <h1 class="page-title">Templates Engine</h1>
+                    <p class="page-subtitle">Manage HTML/CSS blocks for your quiz sections.</p>
+                </div>
+                <button class="btn btn-accent" id="addNewTemplateBtn">Add Template</button>
+            </div>
+
+            <div class="templates-categories" id="templatesCategories">
+                <!-- Template sections will be injected here -->
+            </div>
+        </div>
+
+        <!-- PAGE: MANAGE BUILDS -->
+        <div class="page" id="page-manage-builds">
+            <div class="page-header">
+                <div>
+                    <h1 class="page-title">Manage Builds</h1>
+                    <p class="page-subtitle">All generated website builds.</p>
+                </div>
+            </div>
+            <div class="builds-grid" id="buildsGrid">
+                <div class="empty-state">
+                    <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1">
+                        <path d="M22 19a2 2 0 01-2 2H4a2 2 0 01-2-2V5a2 2 0 012-2h5l2 3h9a2 2 0 012 2z" />
+                    </svg>
+                    <h3>No builds yet</h3>
+                    <p>Generate your first website to see it here.</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- PAGE: SETTINGS -->
+        <div class="page" id="page-settings">
+            <div class="page-header">
+                <div>
+                    <h1 class="page-title">Settings</h1>
+                    <p class="page-subtitle">API keys and preferences.</p>
+                </div>
+            </div>
+            <div class="settings-grid">
+                <div class="settings-card">
+                    <h3>Gemini AI</h3>
+                    <p>Fast, reliable cloud-based generation. Get a free API key at <a
+                            href="https://aistudio.google.com/" target="_blank"
+                            style="color:var(--accent);">aistudio.google.com</a></p>
+                    <div class="key-input-wrap">
+                        <input type="password" id="geminiApiKeyInput" class="key-input"
+                            placeholder="Enter Gemini API Key">
+                        <button class="btn btn-accent btn-sm" id="saveGeminiKey">Save Key</button>
+                    </div>
+                    <span class="key-status" id="geminiStatus"></span>
+                </div>
+
+                <div class="settings-card">
+                    <h3>Data Management</h3>
+                    <p>Export or clear your saved builds.</p>
+                    <div style="display:flex;gap:0.75rem;">
+                        <button class="btn btn-ghost" id="exportBuilds">Export Builds</button>
+                        <button class="btn btn-danger" id="clearData">Clear All Data</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <div class="toast-container" id="toastContainer"></div>
+
+    <!-- MODAL OVERLAY -->
+    <div class="modal-overlay" id="modalOverlay"></div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,5 @@
+{
+  "name": "Website Prompt Generator",
+  "description": "A tool to generate detailed prompts for AI website creation.",
+  "requestFramePermissions": []
+}
